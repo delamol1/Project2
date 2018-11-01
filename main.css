@@ -1,12 +1,11 @@
 *{
   box-sizing:border-box;
   
- 
 }
 
 body {
   color:black;
-  font:16px;
+  font-size:16px;
   font-family: 'Nunito', sans-serif;;
   background-color: white;
   max-width: 800px;
@@ -29,7 +28,7 @@ header{
   width: 800px;
   margin:auto;
   font-family: 'Nunito', sans-serif;;
-	
+  overflow: auto
 }
 
 
@@ -63,7 +62,7 @@ img{
 
 .menue{
   float:right;
-  
+  padding-right:10px;
 }
 
 
@@ -152,15 +151,24 @@ li{
   position:absolute;
   right:10px;
   bottom:20px;
+  
+}
+
+.white-arrow:hover {
+	transform: scale(2, 2);
+	position:absolute;
+  	right:10px;
+  	bottom:20px;
 }
 
 footer {
   color:black;
-  font: 24px Arial;
+  font: 18px Arial;
   font-weight:bold;
   max-width: 800px;
   margin: auto;
   margin-top:-40px;
+
 }
 
 .email{
