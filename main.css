@@ -1,3 +1,9 @@
+*{
+  box-sizing:border-box;
+  
+ 
+}
+
 body {
   color:black;
   font:16px;
@@ -68,10 +74,9 @@ li{
   list-style-type: none;
   }
 
-  a{
+ a{
     text-decoration: none;
     color:black;
-    font: 24px Arial;
     font-weight:bold;
     
   }
@@ -153,36 +158,26 @@ footer {
   color:black;
   font: 24px Arial;
   font-weight:bold;
-  text-align:center;
-  position:relative;
+  max-width: 800px;
+  margin: auto;
   margin-top:-40px;
+}
+
+.email{
+  float:left;
+}
+
+
+.privacy {
+  text-align:center;
+}
+.languages {
+ float:right;
+ margin:0;
   
 }
 
-footer li{
-  padding: 10px;
-}
 
-
-
-.language {
- 
-  
-  position:absolute;
-  right:0;
-  top:0;
-
-
-  
-
-}
-
-.email {
-  
-  left:0;
-  position:absolute;
-  top:40px;
-}
 
 
 
